@@ -588,7 +588,7 @@ logging:
 af-packet:
   - interface: enp0s8
     # Number of receive threads. "auto" uses the number of cores
-    #threads: auto
+    threads: auto
     # Default clusterid. AF_PACKET will load balance packets based on flow.
     cluster-id: 99
     # Default AF_PACKET cluster type. AF_PACKET can load balance per flow or per hash.
